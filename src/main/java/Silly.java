@@ -53,6 +53,11 @@ public class Silly implements Comparable<Silly>{
      */
 
     /**
+     * TODO (Task 1): Create another constructor that takes in TWO parameters,
+     *       both of which are strings.
+     *       Afterwards, set this.name to the concatenation of both
+     *       strings (e.g. this.name = [first string] + [second string]).
+     *       Make sure you document this method!
      * Creates a new Silly object.
      * This constructor takes in a single String as an argument.
      *
@@ -117,7 +122,7 @@ public class Silly implements Comparable<Silly>{
         y.countStatic();
         x.countStatic();
         x.countStatic();
-        int[] expected_values = {2, 0};
+        int[] expected_values = {};
 
         System.out.println("The countStatic calls will return " + Arrays.toString(expected_values));
     }
